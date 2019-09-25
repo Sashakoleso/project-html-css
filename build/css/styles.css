@@ -402,3 +402,12 @@ template {
   font-weight: 700;
   src: local("Roboto Bold"), local("Roboto-Bold"), url("../fonts/roboto-v20-latin-700.woff2") format("woff2"), url("../fonts/roboto-v20-latin-700.woff") format("woff");
 }
+
+.wrapper {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.section__2 h2 {
+  font-family: Roboto, sans-serif;
+}

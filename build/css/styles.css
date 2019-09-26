@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /*
    Import partials below
 */
@@ -443,7 +445,7 @@ template {
 
 .nav__link {
   font-size: 20px;
-  font-family: 'Roboto';
+  font-family: Roboto, sans-serif;
   color: white;
   text-transform: uppercase;
   line-height: 1.2;
@@ -474,7 +476,7 @@ template {
   display: block;
   text-align: center;
   font-size: 73px;
-  font-family: 'Roboto';
+  font-family: Roboto, sans-serif;
   color: white;
   font-weight: bold;
   text-transform: uppercase;
@@ -487,7 +489,7 @@ template {
   margin-bottom: 11px;
   text-align: center;
   font-size: 73px;
-  font-family: 'Roboto';
+  font-family: Roboto, sans-serif;
   color: #ed322d;
   font-weight: bold;
   text-transform: uppercase;
@@ -503,7 +505,7 @@ template {
   margin: 0 auto;
   margin-bottom: 388px;
   font-size: 20px;
-  font-family: 'Roboto';
+  font-family: Roboto, sans-serif;
   color: #a8a8a8;
   line-height: 1.2;
   text-align: center;
@@ -523,7 +525,7 @@ template {
 .button__text {
   text-align: center;
   font-size: 15px;
-  font-family: 'Roboto';
+  font-family: Roboto, sans-serif;
   color: #a8a8a8;
   text-transform: uppercase;
   line-height: 1.2;
@@ -550,8 +552,6 @@ img {
   height: auto;
 }
 
-/* section-first main */
-
 .section-first {
   display: flex;
   justify-content: space-between;
@@ -572,8 +572,6 @@ img {
   background-color: #f8f8f8;
 }
 
-/* section-first__right-video */
-
 .section-first__right-video {
   display: flex;
   justify-content: space-between;
@@ -593,7 +591,7 @@ img {
 
 .section__header {
   font-size: 72px;
-  font-family: "Roboto";
+  font-family: Roboto, sans-serif;
   color: #404040;
   font-weight: bold;
   text-transform: uppercase;
@@ -608,13 +606,13 @@ img {
 
 .section-first__text {
   font-size: 17px;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif, sans-serif;
   color: #5d5d5d;
 }
 
 .section-first__right-video-right-text {
   font-size: 17px;
-  font-family: "Roboto";
+  font-family: Roboto, sans-serif, sans-serif;
   color: #5d5d5d;
   margin-left: 15px;
 }
@@ -940,8 +938,9 @@ li {
 
 .img__logo {
   position: absolute;
-  left: 44%;
-  top: -8%;
+  left: 50%;
+  top: -9%;
+  transform: translateX(-50%);
 }
 
 .section__header--center {
@@ -949,6 +948,10 @@ li {
 }
 
 .section__header--white-fouth-section {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 2%;
   color: #fff;
   padding-top: 5%;
   margin: 0;
@@ -966,9 +969,17 @@ li {
   margin-bottom: 40px;
   background-color: #585858;
   color: #585858;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 23%;
 }
 
 .section-fourth-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 26%;
   display: block;
   margin: 0 auto;
   font-size: 24px;
@@ -986,10 +997,56 @@ li {
   margin: 0 auto;
   width: 946px;
   height: 627px;
-  background-color: #ecff46;
+  background-color: white;
   flex-wrap: wrap;
   justify-content: space-between;
   border: 1px solid grey;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.information {
+  padding-top: 108px;
+  padding-bottom: 98px;
+  text-align: center;
+}
+
+.inputs {
+  height: 300px;
+  width: 490px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 82px;
+}
+
+.input {
+  height: 38px;
+  width: 100%;
+  font-size: 14px;
+  font-family: ‘Roboto’;
+  color: #8e8e8e;
+  line-height: 2.571;
+  text-align: left;
+  border: none;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.submit__button {
+  width: 240px;
+  height: 62px;
+  font-size: 17px;
+  font-family: ‘Roboto’;
+  color: #3c3c3c;
+  text-transform: uppercase;
+  line-height: 2.118;
+  text-transform: uppercase;
+  border: 2px solid #878787;
+  padding: 0px;
+  background: transparent;
 }
 
 .wrapper {
@@ -1050,17 +1107,6 @@ li {
   }
 }
 
-@media (max-width: 3000px) {
-  .section-fourth {
-    width: 2200px;
-    height: 1007px;
-  }
-
-  .img__logo {
-    left: 1010px;
-  }
-}
-
 @media (max-width: 1750px) {
   .section-third__central-block {
     width: 579px;
@@ -1068,18 +1114,6 @@ li {
 
   .section-third {
     height: 2100px;
-  }
-}
-
-@media (max-width: 1500px) {
-  .img__logo {
-    left: 1010px;
-  }
-}
-
-@media (max-width: 1300px) {
-  .img__logo {
-    left: 1010px;
   }
 }
 
@@ -1101,19 +1135,19 @@ li {
 
 @media (max-width: 1115px) {
   .section__2 {
-    width: 1023px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
 
   .main__section__title {
-    max-width: 1023px;
+    max-width: 100%;
   }
 
   .bubles {
     height: 600px;
-    width: 1023px;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
   }
@@ -1144,7 +1178,7 @@ li {
   }
 
   .main__section__title {
-    width: 1023px;
+    width: 100%;
   }
 
   .main__section__title {
@@ -1152,12 +1186,14 @@ li {
   }
 
   .section__2__text {
-    width: 1023px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
   }
 
   .section__2__text li {
+    display: block;
+    margin: 0 auto;
     width: 450px;
   }
 }
@@ -1173,6 +1209,13 @@ li {
 
   .secondary__text {
     margin-bottom: 260px;
+  }
+}
+
+@media (max-width: 976px) {
+  .section-fourth__central-block {
+    width: 800px;
+    height: 600px;
   }
 }
 
@@ -1195,12 +1238,12 @@ li {
   }
 
   .section__2 {
-    width: 760px;
+    width: 100%;
   }
 
   .bubles {
     height: 800px;
-    width: 400px;
+    width: 100%;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
@@ -1234,12 +1277,12 @@ li {
   }
 
   .main__section__title {
-    width: 760px;
+    width: 100%;
     padding-bottom: 50px;
   }
 
   .section__2__text {
-    width: 760px;
+    width: 100%;
     text-align: center;
   }
 
@@ -1302,11 +1345,18 @@ li {
 
 @media (max-width: 589px) {
   .secondary__text {
-    width: 355px;
+    width: 100%;
   }
 
   .secondary__text {
     margin-bottom: 230px;
+  }
+}
+
+@media (max-width: 479px) {
+  .section-fourth__central-block {
+    width: 370px;
+    height: 200px;
   }
 }
 
@@ -1320,7 +1370,7 @@ li {
   }
 
   .secondary__text {
-    width: 365px;
+    width: 100%;
     margin-bottom: 220px;
   }
 }

@@ -38,7 +38,7 @@
 
 .nav__link {
   font-size: 20px;
-  font-family: 'Roboto';
+  font-family: $roboto;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   line-height: 1.2;
@@ -52,7 +52,7 @@
 }
 
 .button {
-  background-image: url('../images/button_menu.png');
+  background-image: url("../images/button_menu.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 32px;
@@ -69,7 +69,7 @@
   display: block;
   text-align: center;
   font-size: 73px;
-  font-family: 'Roboto';
+  font-family: $roboto;
   color: rgb(255, 255, 255);
   font-weight: bold;
   text-transform: uppercase;
@@ -82,7 +82,7 @@
   margin-bottom: 11px;
   text-align: center;
   font-size: 73px;
-  font-family: 'Roboto';
+  font-family: $roboto;
   color: rgb(237, 50, 45);
   font-weight: bold;
   text-transform: uppercase;
@@ -98,14 +98,14 @@
   margin: 0 auto;
   margin-bottom: 388px;
   font-size: 20px;
-  font-family: 'Roboto';
+  font-family: $roboto;
   color: rgb(168, 168, 168);
   line-height: 1.2;
   text-align: center;
 }
 
 .scroll {
-  background-image: url('../images/scroll_button.png');
+  background-image: url("../images/scroll_button.png");
   width: 29px;
   height: 56px;
   background-color: transparent;
@@ -118,13 +118,13 @@
 .button__text {
   text-align: center;
   font-size: 15px;
-  font-family: 'Roboto';
+  font-family: $roboto;
   color: rgb(168, 168, 168);
   text-transform: uppercase;
   line-height: 1.2;
   text-align: center;
 }
-// 1199px
+
 @media (max-width: 1023px) {
   .article__text1 {
     font-size: 65px;
@@ -134,11 +134,11 @@
     font-size: 65px;
   }
 
-  .secondary__text{
+  .secondary__text {
     margin-bottom: 260px;
   }
 }
-// 767px
+
 @media (max-width: 767px) {
   .article__text1 {
     font-size: 55px;
@@ -148,17 +148,15 @@
     font-size: 55px;
   }
 
-  .secondary__text{
+  .secondary__text {
     width: 458px;
     margin-bottom: 255px;
   }
 
-  .navigation{
+  .navigation {
     margin-bottom: 200px;
   }
 }
-
-// 696px
 
 @media (max-width: 696px) {
   .strip {
@@ -180,7 +178,7 @@
       order: 3;
     }
 
-    &:nth-of-type(3){
+    &:nth-of-type(3) {
       order: 2;
     }
   }
@@ -194,11 +192,10 @@
     padding-left: 0px;
   }
 
-  .secondary__text{
+  .secondary__text {
     margin-bottom: 240px;
   }
 }
-// 661px
 
 @media (max-width: 661px) {
   .article__text1 {
@@ -208,23 +205,20 @@
     margin-bottom: 30px;
   }
 
-  .secondary__text{
+  .secondary__text {
     margin-bottom: 235px;
   }
 }
 
-// 589px
-
 @media (max-width: 589px) {
-  .secondary__text{
-    width: 355px;
+  .secondary__text {
+    width: 100%;
   }
 
-  .secondary__text{
+  .secondary__text {
     margin-bottom: 230px;
   }
 }
-// 478px
 
 @media (max-width: 478px) {
   .article__text1 {
@@ -236,7 +230,7 @@
   }
 
   .secondary__text {
-    width: 365px;
+    width: 100%;
     margin-bottom: 220px;
   }
 }

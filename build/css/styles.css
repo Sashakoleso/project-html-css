@@ -434,6 +434,7 @@ template {
   list-style: none;
   text-decoration: none;
   margin: 0;
+  padding-left: 0px;
 }
 
 .nav__item {

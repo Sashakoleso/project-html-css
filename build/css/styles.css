@@ -571,6 +571,10 @@ img {
   background-color: #f8f8f8;
 }
 
+.block__inside {
+  width: 300px;
+}
+
 .section-first__right-video {
   display: flex;
   justify-content: space-between;
@@ -797,7 +801,6 @@ li {
   width: 100%;
   margin: 0 auto;
   background-image: url(../../images/section_third_bg.jpg);
-  background-image: url();
   height: 1080px;
   background-size: cover;
   background-repeat: no-repeat;

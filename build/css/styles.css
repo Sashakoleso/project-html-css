@@ -404,7 +404,7 @@ template {
 }
 
 .header {
-  background-image: url(../../images/background_img.jpg);
+  background-image: url(../images/background_img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 70px;
@@ -458,7 +458,7 @@ template {
 }
 
 .button {
-  background-image: url(../../images/button_menu.png);
+  background-image: url(../images/button_menu.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 32px;
@@ -511,7 +511,7 @@ template {
 }
 
 .scroll {
-  background-image: url(../../images/scroll_button.png);
+  background-image: url(../images/scroll_button.png);
   width: 29px;
   height: 56px;
   background-color: transparent;
@@ -800,7 +800,7 @@ li {
   display: block;
   width: 100%;
   margin: 0 auto;
-  background-image: url(../../images/section_third_bg.jpg);
+  background-image: url(../images/section_third_bg.jpg);
   height: 1080px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -850,7 +850,7 @@ li {
 
 .central-block__item {
   display: flex;
-  flex-basis: calc(100%/3);
+  flex-basis: calc(100% / 3);
   min-width: 340px;
   height: 33%;
 }
@@ -922,7 +922,7 @@ li {
   display: block;
   width: 100%;
   margin: 0 auto;
-  background-image: url(../../images/section_fourth_bg.jpg);
+  background-image: url(../images/section_fourth_bg.jpg);
   height: 1080px;
   background-size: cover;
   background-repeat: no-repeat;

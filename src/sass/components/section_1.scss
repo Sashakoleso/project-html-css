@@ -2,14 +2,14 @@
   outline: 1px solid red;
 }
 
-html{
-box-sizing:border-box;
+html {
+  box-sizing: border-box;
 }
 
 *,
 *::before,
-*::after{
-box-sizing: inherit;
+*::after {
+  box-sizing: inherit;
 }
 
 img {
@@ -37,7 +37,7 @@ img {
   padding-right: 4%;
   background-color: #f8f8f8;
 }
-.block__inside{
+.block__inside {
   width: 300px;
 }
 
@@ -122,4 +122,3 @@ img {
     padding-right: 6%;
   }
 }
-

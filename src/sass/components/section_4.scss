@@ -81,7 +81,6 @@
 /* Form Section */
 .information {
   padding-top: 108px;
-  padding-bottom: 98px;
   text-align: center;
 }
 
@@ -104,7 +103,10 @@
   line-height: 2.571;
   text-align: left;
   border: none;
-  border-bottom: 1px solid #ebebeb;
+  border-bottom: 1px solid #686868;
+}
+::placeholder {
+  padding-left: 20px;
 }
 
 .submit__button {
@@ -116,9 +118,12 @@
   text-transform: uppercase;
   line-height: 2.118;
   text-transform: uppercase;
-  border: 2px solid #878787;
+  border: 2px solid #a7a7a7;
   padding: 0px;
   background: transparent;
+}
+textarea {
+  overflow: hidden;
 }
 
 @media (max-width: 976px) {

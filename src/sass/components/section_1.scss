@@ -20,7 +20,6 @@ img {
 
 .section-first {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -75,12 +74,14 @@ img {
 
 .section-first__text {
   font-size: 17px;
+  line-height: 2;
   font-family: $roboto, sans-serif;
   color: rgb(93, 93, 93);
 }
 
 .section-first__right-video-right-text {
   font-size: 17px;
+  line-height: 2;
   font-family: $roboto, sans-serif;
   color: rgb(93, 93, 93);
   margin-left: 15px;
